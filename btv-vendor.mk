@@ -17,5 +17,5 @@
 #
 # PRODUCT_BOOT_JARS += \
 #     HWJNIFLPLocation
-#
-# $(call inherit-product, vendor/huawei/frd/frd-vendor-blobs.mk)
+
+$(call inherit-product, vendor/huawei/btv/btv-vendor-blobs.mk)
